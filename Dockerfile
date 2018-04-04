@@ -9,5 +9,5 @@ RUN ./build.sh
 
 EXPOSE 9201
 ENV NAME prom01
-CMD ["/bin/bash"]
+CMD ["/root/go/bin/prometheus-postgresql-adapter"]
 
